@@ -57,14 +57,6 @@ fun PieChart(
             data.forEach { slice ->
                 val sweepAngle = (slice.value / totalValue * 360f) * animatedProgress.value
 
-//                drawArc(
-//                    color = slice.color,
-//                    startAngle = startAngle,
-//                    sweepAngle = sweepAngle,
-//                    useCenter = false,
-//                    style = Stroke(width = strokeWidth, cap = StrokeCap.Butt)
-//                )
-
                 drawArc(
                     color = slice.color,
                     startAngle = startAngle,

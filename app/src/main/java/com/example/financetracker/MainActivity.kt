@@ -16,7 +16,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.financetracker.data.repository.TransactionRepository
 import com.example.financetracker.ui.FinanceApp
 import com.example.financetracker.ui.theme.FinanceTrackerTheme
-//import com.example.financetracker.ui.theme.FinancetrackerTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,13 +34,5 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-    }
-}
-
-@Preview
-@Composable
-fun DefaultPreview() {
-    FinanceTrackerTheme {
-        FinanceApp()
     }
 }
